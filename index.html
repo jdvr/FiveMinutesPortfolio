@@ -8,6 +8,7 @@
     <title>Software Dveloper | Juan David Vega</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/yiron.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -36,9 +37,9 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul id="menu" class="nav navbar-nav">
-			<li data-menuanchor="firstPage"><a href="#firstPage">Inicio</a></li>
-			<li data-menuanchor="secondPage"><a href="#secondPage">Sobre mi</a></li>
-			<li data-menuanchor="3rdPage"><a href="#3rdPage">Contacto</a></li>	
+			<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+			<li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
+			<li data-menuanchor="3rdPage"><a href="#3rdPage">Contact</a></li>	
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
@@ -46,7 +47,7 @@
 <div id="fullpage">
 	<div class="section " id="section0">
 		<div class="col-md-12">
-			<img src="img/avatar.jpeg" class=" img-responsive img-circle col-md-2 col-md-offset-5" alt="Image">
+			<img src="img/avatar.jpg" class=" img-responsive img-circle col-md-2 col-md-offset-5" alt="Image">
 			<div class="col-md-12 text-center">
 				<h1 class="yiron-web-title">
 					Software Developer
@@ -59,47 +60,25 @@
 
 	<div class="section " id="section1">
 		<div class="col-md-11 ">
-			<div class="panel panel-default">
-			  	<div class="panel-heading">
-					<h3 class="panel-title">Personal projects</h3>
-				</div>
-				
-				<div class="panel-body">
-			    	<div class="list-group">
-			    		<a href="https://play.google.com/store/apps/details?id=com.androidcanario.lactamas&hl=en" class="list-group-item active">
-			    			<h4 class="list-group-item-heading">Lactamás</h4>
-			    			<p class="list-group-item-text">Androip App for mothers</p>
-			    		</a>
-			    	</div>
-			    	<div class="list-group">
-			    		<a href="http://www.taxibusreservasgrancanaria.com/web/" class="list-group-item active">
-			    			<h4 class="list-group-item-heading">La Villarona Bus</h4>
-			    			<p class="list-group-item-text">Family Business web site</p>
-			    		</a>
-			    	</div>
-				</div>
+			<div id="lactamas" class="col-lg-4 project">
+				<a href="https://play.google.com/store/apps/details?id=com.androidcanario.lactamas&hl=en" class="col-lg-12 text-center" >
+					<img src="img/lactamas.png" alt="">
+					<div class="project-description">
+						<h4>Lactamás</h4>
+						<p>Android App with instructions for first-time mothers.</p>
+					</div>
+				</a>
 			</div>
-			<div class="panel panel-default">
-			  	<div class="panel-heading">
-					<h3 class="panel-title">Developers groups</h3>
-				</div>
-				
-				<div class="panel-body">
-			    	<div class="list-group">
-			    		<a href="https://play.google.com/store/apps/details?id=com.androidcanario.lactamas&hl=en" class="list-group-item active">
-			    			<h4 class="list-group-item-heading">Lactamás</h4>
-			    			<p class="list-group-item-text">Androip App for mothers</p>
-			    		</a>
-			    	</div>
-			    	<div class="list-group">
-			    		<a href="http://www.taxibusreservasgrancanaria.com/web/" class="list-group-item active">
-			    			<h4 class="list-group-item-heading">La Villarona Bus</h4>
-			    			<p class="list-group-item-text">Family Business web site</p>
-			    		</a>
-			    	</div>
-				</div>
+
+			<div id="lavillarona" class="col-lg-4 project">
+				<a href="http://www.taxibusreservasgrancanaria.com" class="col-lg-12 text-center" >
+					<img src="img/lactamas.png" alt="">
+					<div class="project-description">
+						<h4>La Villarona</h4>
+						<p>Web page for road transport passanger company.</p>
+					</div>
+				</a>
 			</div>
-			
 		</div>
 	</div>
 
@@ -147,8 +126,7 @@
 		<script type="text/javascript" src="js/jquery.easings.min.js"></script>
 		<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 		<script type="text/javascript" src="js/navManager.js"></script>
-		<script type="text/javascript" src="js/mapa/jquery.twism.js"></script>
-		<script type="text/javascript" src="js/mapa/loadmap.js"></script>
+		<script type="text/javascript" src="js/indexHelper.js"></script>
 
 
 

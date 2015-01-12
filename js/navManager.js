@@ -6,7 +6,7 @@ $(document).ready(function() {
 				navigation: true,
 				slidesNavigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Inicio', 'Qienes Somos', 'Eventos'],
+				navigationTooltips: ['Home', 'About', 'Contact'],
 				resize: false,
 			});
 		});

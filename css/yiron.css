@@ -28,3 +28,21 @@
  .social{
     color: black;
  }
+
+.blue {
+    background-color: #39A6D9;
+}
+
+.head {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.personal-info {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #ffffff;
+}

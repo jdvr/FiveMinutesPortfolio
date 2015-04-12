@@ -9,7 +9,6 @@ var ProfileLoader = (function(){
 
     function fillHtmlData(){
         getKeys().forEach(function(key){
-            console.log(convertKeyToHtmlIds(key));
             $("#" + convertKeyToHtmlIds(key)).html(profile[key]);
         });
     }

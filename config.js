@@ -3,8 +3,8 @@ var profile = {
     name: "Juan David Vega",
     title: "Juan David Vega | Software Craftsman",
     nav_title: "Software Craftsman",
-    skills_subtitle: "Software Craftman",
-    about_left_column: "I am a Software Cratsman apprentice, I live to code, as a craftsman I commits to life-long learning and I always try to do my best using the methodology that produce the best results",
+    skills_subtitle: "Software Craftsman",
+    about_left_column: "I am a Software Craftsman apprentice, I live to code, as a craftsman I commits to life-long learning and I always try to do my best using the methodology that produce the best results",
     about_right_column: "This is my last year at college, I am studying Software Engineer, but i think that programming cannot be learning at college, you have to practice. Practice and share are the only way to get mastery"
 };
 

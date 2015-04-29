@@ -2,10 +2,10 @@
 var profile = {
     name: "Juan David Vega",
     title: "Juan David Vega | Software Craftsman",
-    nav_title: "Software Craftsman",
+    nav_title: "Welcome",
     skills_subtitle: "Software Craftsman",
-    about_left_column: "I am a Software Craftsman apprentice, I live to code, as a craftsman I commits to life-long learning and I always try to do my best using the methodology that produce the best results",
-    about_right_column: "This is my last year at college, I am studying Software Engineer, but i think that programming cannot be learning at college, you have to practice. Practice and share are the only way to get mastery"
+    about_left_column: "I am a Software Craftsman apprentice, I live to code, I commit to lifelong learning and I always try to do my best, I love this profession, and particularly th community around it, th pleasure to share and learn from other developers.",
+    about_right_column: "This is my last year at college (until July 2015), I am studying Software Engineer, but that is only a little part of all my formation, I am self-taught and I have learned many languages, technologies and practices on my own. I love learn and discover about everything."
 };
 
 //You must configure here your projects, imgs have to be store in "img/portfolio" and must be 512x512
@@ -41,7 +41,7 @@ var projects = {
 var footer = {
     left: {
         title: "Location",
-        content:'<p>Las Palmas de Gran Canaria<br>Canary Islands, Spain</p>'
+        content:'<p>Las Palmas de Gran Canaria<br>Canary Islands, Spain</p><p>Make me take a fly <i class="fa fa-plane"></i></p>'
     },
     middle: {
         title: "Around the Web",

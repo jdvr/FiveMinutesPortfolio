@@ -3,8 +3,8 @@ var profile = {
     name: "Juan David Vega",
     title: "Juan David Vega | Software Craftsman",
     nav_title: "Welcome",
-    skills_subtitle: "Software Craftsman",
-    about_left_column: "I am a Software Craftsman apprentice, I live to code, I commit to lifelong learning and I always try to do my best, I love this profession, and particularly the community around it, the pleasure to share and learn from other developers.",
+    skills_subtitle: "Software Engineer - Android Developer - Software Craftsman",
+    about_left_column: "Software developer since 2011, I live to code, I commit to lifelong learning and I always try to do my best, I love this profession, and particularly the community around it, the pleasure to share and learn from other developers.",
     about_right_column: "This is my last year at college (until July 2015), I am studying Software Engineer, but that is only a little part of all my education, I am self-taught and I have learned many languages, technologies and practices on my own. I love learn and discover about everything."
 };
 

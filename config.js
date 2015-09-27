@@ -55,3 +55,34 @@ var footer = {
     }
 };
 
+var Book = (function(title, status){
+    return {
+        title: function(){
+            return title;
+        },
+        status: function(){
+            return status;
+        }
+    }
+});
+
+var books = [
+    new Book("Diseño Ágil con TDD", "done"),
+    new Book("Software Craftsmanship", "done"),
+    new Book("Apprenticeship Patterns", "done"),
+    new Book("Extreme Programming Explained: Embrace Change", "done"),
+    new Book("Practical Object Oriented Design with Ruby (Reading)", "inprogress"),
+    new Book("Clean Code", "todo"),
+    new Book("Implementation Patterns", "todo"),
+    new Book("Refactoring to Patterns", "todo"),
+    new Book("Design Patterns: Elements of Reusable Object-Oriented Software GoF", "todo"),
+    new Book("Growing object oriented guided by tests", "todo"),
+    new Book("Domain Driven Design", "todo"),
+    new Book("Continuous Delivery", "todo"),
+    new Book("Patterns of Enterprise Application Architecture", "todo"),
+    new Book("Implementing Domain Driven Design", "todo"),
+    new Book("The Clean Coder", "todo"),
+    new Book("Effective Unit Testing", "todo")
+];
+
+

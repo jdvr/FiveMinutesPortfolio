@@ -4,8 +4,8 @@ var profile = {
     title: "Juan David Vega | Software Craftsmanship Apprentice",
     nav_title: "Juan D. Vega",
     skills_subtitle: "Software Craftsmanship Apprentice - Java Developer",
-    about_left_column: "Amante de lo sencillo, desde que descrubí la programación me comprometí a toda una vida de aprendizaje y mejora contínua siempre intentando dar lo mejor de mi, me encanta esta profesión, y más concretamente la comunidad al rededor de ella, es un placer enseñar y aprender de otros desarrolladores",
-    about_right_column: "Graduado en Ing. Software, la universidad es solo una pequeña parte de mi formación, Soy una persona muy autodidacta y paso gran parte de mi tiempo libre aprendiendo o mejorando. "
+    about_left_column: "Amante de lo sencillo, desde que descrubí la programación me comprometí a toda una vida de aprendizaje y mejora continua siempre intentando dar lo mejor de mi, me encanta esta profesión, y más concretamente la comunidad alrededor de ella, es un placer enseñar y aprender de otros desarrolladores",
+    about_right_column: "Graduado en Ing. Software, la universidad es sólo una pequeña parte de mi formación. Soy una persona muy autodidacta y paso gran parte de mi tiempo libre aprendiendo o mejorando. "
 };
 
 //You must configure here your projects, imgs have to be store in "img/portfolio" and must be 512x512

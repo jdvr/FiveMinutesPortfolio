@@ -1,11 +1,11 @@
 //This variaprofessionalismall dawhereverelong to user
 var profile = {
     name: "Juan David Vega",
-    title: "Juan David Vega | Software Craftsman",
-    nav_title: "Welcome",
-    skills_subtitle: "Software Engineer - Android Developer - Software Craftsman",
-    about_left_column: "Software developer since 2011, I live to code, I commit to lifelong learning and I always try to do my best, I love this profession, and particularly the community around it, the pleasure to share and learn from other developers.",
-    about_right_column: "This is my last year at college (until July 2015), I am studying Software Engineer, but that is only a little part of all my education, I am self-taught and I have learned many languages, technologies and practices on my own. I love learn and discover about everything."
+    title: "Juan David Vega | Software Craftsmanship Apprentice",
+    nav_title: "Juan D. Vega",
+    skills_subtitle: "Software Craftsmanship Apprentice - Java Developer",
+    about_left_column: "Amante de lo sencillo, desde que descrubí la programación me comprometí a toda una vida de aprendizaje y mejora contínua siempre intentando dar lo mejor de mi, me encanta esta profesión, y más concretamente la comunidad al rededor de ella, es un placer enseñar y aprender de otros desarrolladores",
+    about_right_column: "Graduado en Ing. Software, la universidad es solo una pequeña parte de mi formación, Soy una persona muy autodidacta y paso gran parte de mi tiempo libre aprendiendo o mejorando. "
 };
 
 //You must configure here your projects, imgs have to be store in "img/portfolio" and must be 512x512
@@ -40,17 +40,18 @@ var projects = {
 //DO NOT modify the keys use simple text as title and html for the content
 var footer = {
     left: {
-        title: "Location",
-        content:'<p>Las Palmas de Gran Canaria<br>Canary Islands, Spain</p><p>Make me take a flight <i class="fa fa-plane"></i></p>'
+        title: "Localización",
+        content:'<p>Madrid, España</p>'
     },
     middle: {
-        title: "Around the Web",
+        title: "En las redes",
         content:'<ul class="list-inline"> <li> <a href="https://github.com/jdvr" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a> </li> <li>  <a href="https://twitter.com/juandvegarguez" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a> </li> <li> <a href="https://es.linkedin.com/in/juandavidvegarguez" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a> </li> </ul>'
 
     },
     right: {
-        title: "Born to code",
-        content: '<p>Hire me, I would like to work wherever around the world</p>' +
+        title: "Más sobre mí",
+        content: '<p>Me encanta asistir a los eventos y conocer nuevos desarrolladores</p>' +
                  '<p>Passion, profesionalism and Proud</p>'
     }
 };
+

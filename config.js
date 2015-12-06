@@ -71,7 +71,7 @@ var books = [
     new Book("Software Craftsmanship", "done"),
     new Book("Apprenticeship Patterns", "done"),
     new Book("Extreme Programming Explained: Embrace Change", "done"),
-    new Book("Practical Object Oriented Design with Ruby (Reading)", "inprogress"),
+    new Book("Practical Object Oriented Design with Ruby (Reading)", "done"),
     new Book("Clean Code", "todo"),
     new Book("Implementation Patterns", "todo"),
     new Book("Refactoring to Patterns", "todo"),
